@@ -4,6 +4,13 @@
 }
 
 /* header and navigation styles */
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top:20px;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -26,7 +33,7 @@ nav li{
 .text-primary{
     color: #FD6E0A;
 }
-.btn-hire{
+.btn-primary{
     background-color: #FD6E0A;
     border-style: none;
     padding: 10px 50px;
@@ -34,4 +41,37 @@ nav li{
     color: white;
     font-weight:600;
     font-size: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.banner-btn{
+    padding-top: 30px;
+}
+
+.banner-text{
+
+}
+.banner-greeting{
+ font-size: 45px;   
+ color: #474747;
+ margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #373736;
+    text-align: justify;
+    width: 500px;
+}
+.banner-img img{
+    padding-left: 50px;
+    width: 500px;
 }
