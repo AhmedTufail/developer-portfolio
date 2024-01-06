@@ -75,3 +75,21 @@ nav li{
     padding-left: 50px;
     width: 500px;
 }
+
+/* About section styles */
+.about{
+    margin: 130px 130px;
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+}
+.section-description{
+    text-align: justify;
+}
